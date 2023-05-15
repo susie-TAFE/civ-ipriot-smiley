@@ -1,5 +1,4 @@
 import time
-from blinkable import Blinkable
 from smiley import Smiley
 
 
@@ -29,7 +28,7 @@ class Sad(Smiley):
 
     def blink(self, delay=0.25):
         """
-        Make the happy smiley blink once with a certain delay (in s).
+        Make the sad smiley blink once with a certain delay (in s).
         This is the implementation of the abstract method from the
         Blinkable abstract class.
 
