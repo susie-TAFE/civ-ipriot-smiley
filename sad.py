@@ -24,7 +24,7 @@ class Sad(Smiley):
         """
         eyes = [10, 13, 18, 21]
         for pixel in eyes:
-            self.pixels[pixel] = self.BLANK if wide_open else self.YELLOW
+            self.pixels[pixel] = self.BLANK if wide_open else Smiley.complexion(self)
 
     def blink(self, delay=0.25):
         """
@@ -39,4 +39,3 @@ class Sad(Smiley):
         time.sleep(delay)
         self.draw_eyes(wide_open=True)
         self.show()
-        
