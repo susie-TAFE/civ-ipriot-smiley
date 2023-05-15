@@ -3,7 +3,7 @@ If you have access to a SenseHAT (either via a Raspberry Pi or a SenseHAT emulat
 That is, delete the sense_hat.py file that is included in this bundle."""
 import time
 
-from happy import Happy
+from sad import Sad
 
 if __name__ == '__main__':
     # This is only needed if you have not deleted sense_hat.py
@@ -12,10 +12,10 @@ if __name__ == '__main__':
     # freeze_support()
     ############################################################
 
-    # Create a happy smiley, which is a subclass of Smiley
-    smiley = Happy()
+    # Create a sad smiley, which is a subclass of Smiley
+    smiley = Sad()
 
-    # This is a form of #polymorphism, as the Happy smiley class
+    # This is a form of #polymorphism, as the Sad smiley class
     # does not have a method called .show(). This means that
     # the method .show() of the base class {Smiley} will be
     # used in stead. There is no need to specify the base
@@ -26,7 +26,7 @@ if __name__ == '__main__':
     time.sleep(1)
 
     # Another form of polymorphism:
-    # The method blink is implemented by the Happy class, but
+    # The method blink is implemented by the Sad class, but
     # is defined as an interface (i.e., an abstract base class
     # with an abstract method).
     smiley.blink()
