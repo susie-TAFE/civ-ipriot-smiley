@@ -5,6 +5,7 @@ import time
 
 from happy import Happy
 from sad import Sad
+from angry import Angry
 
 if __name__ == '__main__':
     # This is only needed if you have not deleted sense_hat.py
@@ -37,4 +38,10 @@ if __name__ == '__main__':
     bluey.show()
     time.sleep(1)
     bluey.blink()
+
+    # Create another smiley, this time angry
+    grouchy = Angry()
+    grouchy.show()
+    time.sleep(1)
+    grouchy.blink()
     
