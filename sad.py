@@ -11,7 +11,7 @@ class Sad(Smiley):
 
     def draw_mouth(self):
         """
-        Method that draws the mouth on the standard faceless smiley.
+        Method that draws a sad mouth on the standard faceless smiley.
         """
         mouth = [49, 54, 42, 43, 44, 45]
         for pixel in mouth:

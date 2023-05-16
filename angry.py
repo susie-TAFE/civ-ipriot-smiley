@@ -13,7 +13,7 @@ class Angry(Smiley):
 
     def draw_mouth(self):
         """
-        Method that draws the mouth on the standard faceless smiley.
+        Method that draws an angry mouth on the standard faceless smiley.
         """
         mouth = [43, 44, 50, 53]
         for pixel in mouth:
@@ -21,7 +21,7 @@ class Angry(Smiley):
 
     def draw_eyebrows(self):
         """
-        Method that draws the angry eybrows on the standard faceless smiley.
+        Method that draws the angry eyebrows on the standard faceless smiley.
         """
         eyebrows = [9, 14, 17, 18, 19, 20, 21, 22]
         for pixel in eyebrows:

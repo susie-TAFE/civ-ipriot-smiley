@@ -44,4 +44,3 @@ if __name__ == '__main__':
     grouchy.show()
     time.sleep(1)
     grouchy.blink()
-    
